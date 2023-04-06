@@ -10,18 +10,32 @@
 </head>
 <body>
     <di class="wrapper">
-        <section class="form signup">
+        <section class="form login">
             <header>RealTime ChatApplication</header>
             <form action="#">
                 <div class="error-txt">This is an error message</div>
+                <div class="name-details">
+                    <div class="field">
+                        <label for="">Firstname</label>
+                        <input type="text" placeholder="enter firstname">
+                    </div>
+                    <div class="field">
+                        <label for="">Lastname</label>
+                        <input type="text" placeholder="enter lastname">
+                    </div>
+                    </div>
                     <div class="field">
                         <label for="">Email</label>
                         <input type="text" placeholder="enter your email">
                     </div>
                     <div class="field">
                         <label for="">Password</label>
-                        <input type="text" placeholder="enter new password">
+                        <input type="password" placeholder="enter new password">
                         <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="field image">
+                        <label for="">Select Image</label>
+                        <input type="file">
                     </div>
                     <div class="field button">
                         <input type="submit" value="continue to chat">
@@ -30,5 +44,6 @@
             <div class="link">Not signed up yet? <a href="#">Login</a></div>
         </section>
     </div>
+    <script src="./javascript/password.js"></script>
 </body>
 </html>
