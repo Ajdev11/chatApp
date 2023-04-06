@@ -17,7 +17,7 @@ body{
     background-color: #fff;
     width: 450px;
     border-radius: 16px;
-    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.5),
                 0 32px 64px -48px rgba(0,0,0,0.5);
 }
 .form{
@@ -40,11 +40,66 @@ body{
     border-radius: 5px;
     border: 1px solid #f5c6cb;
 }
+.form form .name-details{
+    display: flex;
+}
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+form .name-details .field:last-child{
+    margin-left: 10px;
+}
 .form form .field{
     display: flex;
+    position: relative;
     flex-direction: column;
     margin-bottom: 10px;
 }
-.form form .name-details{
-    display: flex;
+.form form .field label{
+    margin-bottom: 2px;
+}
+.form form .field input{
+    outline: none;
+}
+.form form input{
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form form .image input{
+    font-size: 17px;
+}
+.form form .button input{
+    margin-right: 13px;
+    height: 45px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form .link{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 17px;
+}
+.form .link a{
+    color: #333;
+}
+.form .link a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.form form .field i{
+    position: absolute;
+    right: 15px;
+    color: #ccc;
+    top: 60%;
+    transform: translate(-50%);
+    cursor: pointer;
 }
