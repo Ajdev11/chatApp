@@ -1,5 +1,5 @@
 <?php
-$con = new mysqli('localhost:3307', 'root', 'Ajtech1994', 'chat');
+$con = new mysqli('localhost', 'root', '', 'chat');
 if(!$con){
     die(mysqli_error());
 }
