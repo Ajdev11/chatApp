@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <di class="wrapper">
-        <section class="form signup">
+    <div class="wrapper">
+        <section class="form login">
             <header>RealTime ChatApplication</header>
             <form action="#">
                 <div class="error-txt">This is an error message</div>

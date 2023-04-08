@@ -150,5 +150,6 @@
             </div>
         </section>
     </div>
+    <script src="./javascript/searchBtn.js"></script>
 </body>
 </html>
