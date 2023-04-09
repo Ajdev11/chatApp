@@ -1,11 +1,26 @@
 <?php
-include_once "header.php;"
+session_start();
+if(!isset($_SESSION['unique_id'])){
+    header("location:login.php");
+}
+?>
+
+<?php
+include_once "header.php";
 ?>
 <body>
     <div class="wrapper">
         <section class="chat-area">
             <header>
-                <a href="#" class="back-icon"><i class="fas fa-arrow-left"></i></a>
+            <?php
+                include_once "php/config.php";
+                $user_id = mysqli_real_escape_string($con, $_GET['user_id']);
+                $sql = mysqli_query($con, "SELECT * FROM users WHERE unique_id = {$_SESSION['unique_id']}");
+                if(mysqli_num_rows($sql) > 0){
+                    $row = mysqli_fetch_assoc($sql);
+                }
+                ?>
+                <a href="users.php" class="back-icon"><i class="fas fa-arrow-left"></i></a>
                     <img src="dp.jpg" alt="">
                     <div class="details">
                         <span>Aj Devs</span>
