@@ -24,13 +24,13 @@ include_once "header.php";
                     <div class="details">
                         <span>
                             <?php
-                            echo $row['fname'] . " " . $row['lname'];
+                            echo $row['fname'] . " " . $row['lname']
                             ?>
                         </span>
                         <p><?php echo $row['status'] ?></p>
                     </div>
                 </div>
-                <a href="#" class="logout">Logout</a>
+                <a href="php/logout.php?logout_id=<?php echo $row['unique_id'] ?>" class="logout">Logout</a>
             </header>
             <div class="search">
                 <span class="text">Select a user to start Chat</span>
@@ -42,6 +42,6 @@ include_once "header.php";
             </div>
         </section>
     </div>
-    <script src="./javascript/users.js"></script>
+    <script src="javascript/users.js"></script>
 </body>
 </html>
