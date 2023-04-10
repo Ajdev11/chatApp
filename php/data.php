@@ -12,17 +12,17 @@ while($row = mysqli_fetch_assoc($sql)){
         }
 // trimming message if more than 28
 (strlen($result) > 28) ? $msg = substr($result, 0, 28).'...' : $msg = $result;
-($outgoing_id == $row2['outgoing_msg_id'])? $you = "You: " : $you = "";
+($outgoing_id == $row2['outgoing_msg_id']) ? $you = "You: " : $you = "";
 
 // check if user is active or offline
+//'. $you . $msg .'
    ($row['status'] == "offline now") ? $offline = "offline" : $offline = "";
-   
     $output .= '<a href="chat.php?user_id='.$row['unique_id'].'">
     <div class="content">
         <img src="php/images/'. $row['img'] . '" alt="">
         <div class="details">
             <span>'. $row['fname']. " " .$row['lname'] .'</span>
-            <p>'. $you . $msg .'</p>
+            <p>' .$you . $msg . '</p>
         </div>
     </div>
     <div class="status-dot '.$offline. '">

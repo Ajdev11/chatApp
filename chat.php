@@ -32,8 +32,8 @@ include_once "header.php";
             <div class="chat-box">   
             </div>
             <form action="#" class="typing-area" autocomplete="off">
-               <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden>
-               <input type="text" name="incoming_id"  value="<?php echo $user_id; ?>" hidden>
+               <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id'] ?>" hidden>
+               <input type="text" name="incoming_id"  value="<?php echo $user_id ?>" hidden>
             <input type="text" name="message"  class="input-field" placeholder="start chat" class="typing-area">
                 <button><i class="fab  fa-telegram-plane"></i></button>
             </form>
