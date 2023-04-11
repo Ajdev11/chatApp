@@ -1,9 +1,4 @@
-<?php
-session_start();
-if(isset($_SESSION['unique_id'])){
-header("location: users.php");
-}
-?>
+
 <?php
 include_once "header.php";
 ?>
@@ -33,7 +28,7 @@ include_once "header.php";
                         <i class="fa-solid fa-eye"></i>
                     </div>
                     <div class="field image">
-                        <label for="">Select Image</label>
+                        <label for="">Select image</label>
                         <input type="file" name="image">
                     </div>
                     <div class="field button">

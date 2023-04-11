@@ -21,7 +21,4 @@ if(!empty($email) && !empty($password)){
     echo "All fields are required";
 }
 
-
-
-
 ?>
