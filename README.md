@@ -34,6 +34,8 @@ To run this chat application, you need to have the following software installed 
 
 `Usage`
 
+. Open the chat application in your web browser.
+
 
 
 
