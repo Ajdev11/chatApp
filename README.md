@@ -26,6 +26,7 @@ To run this chat application, you need to have the following software installed 
 `Features`
 
 . User registration and authentication
+. Real-time messaging using web sockets
 
 
 
