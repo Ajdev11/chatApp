@@ -45,6 +45,8 @@ Contributions are always welcome 🙂! If you'd like to contribute to this proje
 
 . Fork the repository and create your branch:
 
+`git checkout -b feature/YourFeature`
+
 
 
 
