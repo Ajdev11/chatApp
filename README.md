@@ -14,5 +14,8 @@ To run this chat application, you need to have the following software installed 
 
 `Installation`
 
+- Clone this repository to your local machine using the following command:
+
+
 
 
