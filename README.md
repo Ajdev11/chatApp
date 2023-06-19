@@ -35,6 +35,9 @@ To run this chat application, you need to have the following software installed 
 `Usage`
 
 . Open the chat application in your web browser.
+. If you don't have an account, click on the "Sign Up" link to create a new account.
+
+
 
 
 
