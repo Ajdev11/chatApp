@@ -39,7 +39,7 @@ To run this chat application, you need to have the following software installed 
 . Log in using your credentials
 . Start chatting! You can send messages to other users and manage your profile.
 
-
+`Contributing`
 
 
 
