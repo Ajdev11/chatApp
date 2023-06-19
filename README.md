@@ -47,6 +47,8 @@ Contributions are always welcome 🙂! If you'd like to contribute to this proje
 
 `git checkout -b feature/YourFeature`
 
+. Commit your changes and push to the branch:
+
 
 
 
