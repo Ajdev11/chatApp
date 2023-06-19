@@ -49,7 +49,7 @@ Contributions are always welcome 🙂! If you'd like to contribute to this proje
 
 . Commit your changes and push to the branch:
 
-`git commit -am 'Add some feature`
+`git commit -am 'Add some features or commit messages`
 
 `git push origin feature/YourFeature`
 
