@@ -41,7 +41,12 @@ To run this chat application, you need to have the following software installed 
 
 `Contributing`
 
-Contributions are always welcome! If you'd like to contribute to this project, please follow these steps:
+Contributions are always welcome 🙂! If you'd like to contribute to this project, please follow these steps:
+
+. Fork the repository and create your branch:
+
+
+
 
 
 
