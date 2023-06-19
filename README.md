@@ -29,6 +29,7 @@ To run this chat application, you need to have the following software installed 
 . Real-time messaging using web sockets
 . Typing indicator and message read status
 . Online/offline status indication
+. Message history and conversation search
 
 
 
