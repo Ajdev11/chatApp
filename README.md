@@ -12,12 +12,6 @@ To run this chat application, you need to have the following software installed 
 - MySQL (or any other compatible database)
 - Web server (e.g., Apache, Nginx)
 
-- Built using php, javascript and mysql
 
-- Realtime chats bewtween two and more active users
-
-- :100: Authnetication of users
-
-- Prevents multiple registration of a single users
 
 
