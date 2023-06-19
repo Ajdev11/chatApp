@@ -23,6 +23,8 @@ To run this chat application, you need to have the following software installed 
 - Rename the db file to your prefer named db and update the database connection details accordingly.
 - Start your web server, and you're ready to go 🚀
 
+`Features`
+
 
 
 
