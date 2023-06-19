@@ -54,6 +54,9 @@ Contributions are always welcome 🙂! If you'd like to contribute to this proje
 `git push origin feature/YourFeature`
 
 
+That's it! Now you have an awesome chat application up and running. Enjoy 😃 seamless communication with your friends and colleagues. If you encounter any issues or have any questions, kindly reach out to me. Happy chatting!
+
+
 
 
 
