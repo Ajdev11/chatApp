@@ -12,6 +12,7 @@ To run this chat application, you need to have the following software installed 
 - MySQL (or any other compatible database)
 - Web server (e.g., Apache, Nginx)
 
+`Installation`
 
 
 
