@@ -32,6 +32,8 @@ To run this chat application, you need to have the following software installed 
 . Message history and conversation search
 . User profile management
 
+`Usage`
+
 
 
 
