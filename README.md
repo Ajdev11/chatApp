@@ -17,6 +17,8 @@ To run this chat application, you need to have the following software installed 
 - Clone this repository to your local machine using the following command:
   
   `git clone https://github.com/ajdev11/chatApp.git`
+  
+- Configure your web server to point to the cloned repository's directory.
 
 
 
