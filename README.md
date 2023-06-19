@@ -19,6 +19,7 @@ To run this chat application, you need to have the following software installed 
   `git clone https://github.com/ajdev11/chatApp.git`
   
 - Configure your web server to point to the cloned repository's directory.
+- Create a new MySQL database for the chat application.
 
 
 
