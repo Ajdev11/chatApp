@@ -6,5 +6,6 @@
 
 - :100: Authnetication of users
 
+- Prevents multiple registration of a single users
 
 
